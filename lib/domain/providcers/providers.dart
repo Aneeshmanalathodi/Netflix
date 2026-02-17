@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:netflix_web/core/services/dio_client.dart';
+import 'package:netflix_web/data/datasource/dio_client.dart';
 import 'package:netflix_web/data/model/movie_model.dart';
 
 final apiServiceProvider = Provider<ApiService>((ref) => ApiService());
